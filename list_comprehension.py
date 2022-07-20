@@ -9,6 +9,7 @@ for s in students:
 
 print(best_students);
 
+# CREATING A LIST USING LIST COMPREHENSION
 list_comprehension = [ s for s in students if s != "Pipino" ]
 print("LIST COMPREHENSION: ", list_comprehension);
 
